@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 105%;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: rgb(6, 6, 39);
+    height: 15vh;
+}
+li{
+    list-style-type: none;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    
+    height: 100%;
+    width:30%;
+    align-items: center;
+}
+button{
+border: none;
+border-radius: 2%;
+
+}
+.buy
+{
+    padding: 12px 12px;
+    color: rgb(12, 131, 72);
+}
+.disc{
+    padding: 12px 12px;
+    color: aliceblue;
+    background-color: rgb(241, 50, 66);
+}
+
+
+
+
+nav{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    
+}
